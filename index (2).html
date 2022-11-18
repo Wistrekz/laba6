@@ -24,7 +24,6 @@
         {
             var p = document.getElementById('color_text');
             p = p.value;
-            var t = document.documentElement;
             var t = document.getElementById('text3');
             t.style.color = p;
         }
@@ -37,7 +36,7 @@
         }
     </script>
     <body>
-        <p>Цвет для фона</p>
+        <p>Цвет фона</p>
         <input type="text" id="color">
         <input type="button" value="Отправить" onclick="Color_get()">
 
@@ -46,7 +45,7 @@
         <input type="text" id="color_text">
         <input type="button" value="Отправить" onclick="Color_text()">
 
-        <p>
+        <p>Перенназначение ссылки</p>
         <a id = "lk" href="#">Ссылка</a>
         <input type="text" id="link">
         <input type="button" value="Поменять" onclick="link()">
